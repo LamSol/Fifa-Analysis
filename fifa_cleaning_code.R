@@ -26,7 +26,7 @@ sum(is.na(fifa$TotalCharges))
 colSums(is.na(fifa))
 
 #to remove columns 
-fifa_1 <- fifa[-c(1,20,24:29,61:92)]
+fifa_1 <- fifa[-c(1,20,22,24:30,61:92)]
 
 #to view the clean data fifa_1
 View(fifa_1)
@@ -54,4 +54,4 @@ View(fifa_1)
 summary(fifa_1)
 
 #to export clean dataset
-write.csv(fifa_1, "C:/Users/solo2/OneDrive/Documents/Notes/Semester 2/lab/adv sats/fifa_clean.csv")
+write.csv(fifa_1, "C:/Users/solo2/OneDrive/Documents/Notes/Semester 2/lab/adv sats/project/fifa_clean.csv")
